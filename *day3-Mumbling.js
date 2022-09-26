@@ -17,3 +17,10 @@ function accum(str) {
     }
     return result.join('-');
   }
+
+
+
+function accum(str) {
+return str.split('').map((letters, i) => (letters.toUpperCase() + letters.repeat(i).toLowerCase())).join("-")
+}
+  
