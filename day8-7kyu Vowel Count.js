@@ -16,6 +16,8 @@ function getCount(str) {
     return count  
   }
 
+
+  // best practice
   function getCount(str) {
     var vowelsCount = 0;
     var vowels = ["a","e","i","o","u"];
