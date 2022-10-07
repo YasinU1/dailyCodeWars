@@ -1,16 +1,12 @@
+// altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+// altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+// Define String.prototype.toAlternatingCase (or a similar function/method such as to_alternating_case
+// /toAlternatingCase/ToAlternatingCase in your selected language; see the initial solution for details) 
+// such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase. For example:
 
-// Make a program that filters a list of strings and returns a list with only your friends name in it.
 
-// If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours!
 
-// Otherwise, you can be sure he's not...
 
-// Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
-
-// i.e.
-
-// friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
-// Note: keep the original order of the names in the output.
 
 String.prototype.toAlternatingCase = function () {
     // Define your method here :)
