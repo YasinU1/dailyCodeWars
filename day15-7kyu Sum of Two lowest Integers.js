@@ -11,3 +11,9 @@ function sumTwoSmallestNumbers(numbers) {
     numbers.sort((a,b) => a > b ? 1 : -1)
     return numbers[0] + numbers[1]
   }
+
+
+function sumTwoSmallestNumbers(numbers){  
+    numbers = numbers.sort(function(a, b){return a - b; });
+    return numbers[0] + numbers[1];
+  };
