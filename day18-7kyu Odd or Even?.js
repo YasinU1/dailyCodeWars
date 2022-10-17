@@ -23,3 +23,27 @@
 function oddOrEven(array) {
     return array.reduce((acc, c) => acc + c, 0) % 2 == 0 ? "even" : "odd"
  }
+
+
+
+ function arrayDiff(a, b) {
+    for (let i = 0; i < a.length; i++){
+      for (let j = 0; i < b.length ; i++){
+        if (a[i] == b[j]){
+          delete a[i]
+        }
+      }
+    }
+      return a.filter(Boolean)
+  }
+
+  function arrayDiff(a, b) {
+    for (let i = 0; i < a.length; i++){
+      for (let j = 0; i < b.length ; i++){
+        if (a[i] == b[j]){
+          delete a[i]
+        }
+      }
+    }
+      return a.filter(Boolean)
+  }
