@@ -20,4 +20,4 @@ String.prototype.isUpperCase = function() {
 
 
 
-/// if see a .prototype function use this instead of string arguments
+/// if see a .prototype function use this instead of string arguments.
