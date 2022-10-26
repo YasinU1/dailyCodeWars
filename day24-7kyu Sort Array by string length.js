@@ -29,4 +29,3 @@ return array.sort((a,b) => (a.length > b.length) ? 1 : -1)
 
 sortByLength([and, it, because]) // [it, and, because]
 sortByLength([one, three, five]) // [one, five, three]
-
