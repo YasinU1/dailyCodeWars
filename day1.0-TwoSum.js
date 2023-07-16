@@ -1,4 +1,3 @@
-
 // given array of integers, and given a target, 
 // return indices of two numbers to == target
 
